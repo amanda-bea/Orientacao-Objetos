@@ -24,16 +24,12 @@ public class Truck extends Vehicle implements Motorized.Fuel {
 	}
 	@Override
 	public void abastecer() {
-		// TODO Auto-generated method stub
 		System.out.println("Abastecendo o caminhão " + getMarca() + " " + getModelo());
-
 	}
 
 	@Override
 	void drive() {
-		// TODO Auto-generated method stub
 		System.out.println("Dirigindo o caminhão " + getMarca() + " " + getModelo() + " " + getCor() + " peso máximo " + maxWeight());
-
 	}
 	public float maxWeight() {
 		return this.weight;

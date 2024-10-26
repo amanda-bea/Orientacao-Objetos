@@ -31,13 +31,11 @@ public abstract class Vehicle implements Passengers, Load {
 	}
 	@Override
 	public float maxWeight() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
 	@Override
 	public int numberOfPassenger() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 	

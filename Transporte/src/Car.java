@@ -23,9 +23,7 @@ public class Car extends Vehicle {
 	}
 	@Override
 	void drive() {
-		// TODO Auto-generated method stub
 		System.out.printf("Dirigindo o carro %s %s que tem peso máximo %f e número de Passageiro %d\n", getMarca(), getModelo(), maxWeight(), numberOfPassenger());
-
 	}
 	public int numberOfPassenger() {
 		return numPassenger;

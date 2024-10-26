@@ -2,7 +2,6 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
 		Bike bike1 = new Bike(sc.next(), sc.next(), sc.next(), sc.nextInt(), sc.nextFloat());
@@ -17,7 +16,8 @@ public class Main {
 	    eleCar1.carregarBateria();
 	    truck1.abastecer();
 	    truck1.drive();
-	
+		
+		sc.close();
 	}
 
 }
